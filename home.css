@@ -1,0 +1,55 @@
+body{
+    font-family: 'Bellota Text', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(217, 241, 233);
+  
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+ 
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+} 
+.logo{
+   font-size: 50px; 
+   color: rgb(0, 121, 251);
+   font-weight:bold ;
+
+}
+.list ul, .icons ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    column-gap: 50px;
+    font-size: 20px;
+   
+}
+.menu {
+    display: flex;
+     column-gap: 50px;
+     align-items: center;
+}
+
+a{
+    color: rgb(178, 176, 176);
+    font-weight: 700;
+}
+.icons li i{
+    color: rgb(2, 55, 245);
+    border-radius:50px ;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 4px 13px rgb(7, 7, 6);
+}

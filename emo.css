@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    border: 10px solid white;
+    box-sizing: border-box;
+   color: cornsilk;
+}
+.box:hover{
+    background-color: brown;
+    border: 10px solid rgb(245, 178, 7);
+}
+.text{
+    border: none;
+    background-color: blueviolet;
+    color: rgb(220, 131, 15);
+    font-size: 30px;
+    border: 10px solid greenyellow;
+    outline: 10px solid violet;
+
+}
+.text:hover{
+    background-color: azure;
+}
+.text:focus{
+    background-color: darkblue;
+    border: 10px solid red;
+    outline: none;
+}
+.box1 >.child:nth-child(5){
+    color: rgb(225, 23, 43);
+}
+.box1:hover{
+    color: blue;
+}
+.box3::after{
+    content: 'Hello Emon';
+    background-color: darkslategrey;
+    color: brown;
+}
+

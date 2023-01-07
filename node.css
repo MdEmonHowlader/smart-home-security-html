@@ -1,0 +1,27 @@
+.parent{
+ 
+    color: #e6eee4c3;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    height: 500px;
+    width: 600px;
+    box-shadow: 0 0 30px black, 0 0 30px black, 0 0 30px black, 0 0 30px black;
+    background-image: url(https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg?w=2000);
+    border: 30px solid wheat;
+    border-radius: 10px;
+    text-shadow:  0 0 30px black, 0 0 30px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.child{
+    background-color: red;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

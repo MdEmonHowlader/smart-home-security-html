@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.emo{
+    background-color:coral;
+    color: aqua;
+    height:70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: sticky;
+    top:0px;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+   z-index: 9;
+    
+}
+.emon{
+    background-color: rgb(167, 151, 11);
+    padding: 200px 0px ;
+    position: relative;
+  
+}
+.boxes > div{
+    color: rgb(10, 10, 17);
+    background-color: rgb(143, 54, 54);
+    padding: 30px;
+    font-size:30px;
+
+}
+
+.box-3{
+    position:relative;
+    top: 0px;
+    left: 0px;
+    border: 15px sloid rgb(68, 240, 46);
+    padding: 15px!important;
+
+   
+}
+
+.new-box{
+    color: aqua;
+    background-color: coral;
+    height: 400px;
+    width:50%;
+    text-shadow: 0 0 50px blue;
+    text-align: center;
+    font-size: 90px;
+    justify-content: center;
+    display:block;
+    align-items: center;
+    margin: 50px;
+   
+   
+}
