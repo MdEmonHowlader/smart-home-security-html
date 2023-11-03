@@ -2,7 +2,8 @@ body{
     font-family: 'Bellota Text', cursive;
     margin: 0;
     padding: 0;
-    background-color: rgb(217, 241, 233);
+    background-color:#F2F3F7;
+
   
 }
 header{
@@ -16,11 +17,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 90%;
 } 
 .logo{
    font-size: 50px; 
-   color: rgb(0, 121, 251);
+   color: rgb(43, 140, 238);
    font-weight:bold ;
 
 }
@@ -40,11 +41,11 @@ header{
 }
 
 a{
-    color: rgb(178, 176, 176);
+    color: rgb(242, 172, 52);
     font-weight: 700;
 }
 .icons li i{
-    color: rgb(2, 55, 245);
+    color: rgb(26, 67, 232);
     border-radius:50px ;
     height: 60px;
     width: 60px;
@@ -53,3 +54,166 @@ a{
     align-items: center;
     box-shadow: 5px 4px 13px rgb(7, 7, 6);
 }
+.icons li i:hover{
+    background-color: rgb(244, 139, 10);
+    transition: .5s;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    font-size: 25px;
+}
+.top> div{
+    flex-basis: 50%;
+    position: relative;
+}
+.top>div:last-child::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(251, 170, 9);
+    width: 5px;
+  
+}
+.top>div:last-child{
+    padding-left: 20px;
+}
+.top h4{
+    color: #36187d;;
+    font-size: 40px;
+    padding: 0;
+    margin-bottom: 0;
+   
+
+} 
+h4{
+    margin-left: 50%;
+}
+h1{
+    margin-left: 50%;
+    font-size: 70px;
+    color:#0196e3;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+/* setion2-start */
+.section2-head{
+    text-align: center;
+}
+.section2-head h2{
+    font-size: 80px;
+    color: #36187d;
+}
+.section2-head p{
+    font-size: 25px;
+    margin-top: -50px;
+}
+.section2-Container{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    
+
+}
+.section2-Container div{
+    text-align: center;
+    width: 400px;
+    /* border: 2px solid gray; */
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    border-radius: 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #6c757d;
+    padding: 0 20px;
+}
+
+.section2-Container div i{
+    font-size: 70px;
+    color: rgb(18, 115, 241);
+    
+}
+.section2-Container div h2{
+    font-size: 30px;
+    margin: 15px 0px;
+    color: darkturquoise;
+}
+.section2-Container div p{
+    font-size: 22px;
+}
+
+
+/* section3 */
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    font-size: 30px;
+    margin: 200px auto;
+    
+}
+.section3>div
+{
+flex-basis: 50%;
+/* position: relative; */
+}
+.section3 h5{
+    color: #0196e3;
+    font-size: 70px;
+    margin: 0;
+    margin-top: -40px;
+}
+.section3 p{
+    margin: 0;
+    color: #6c757d;
+}
+
+/* section4 */
+.title{
+    text-align: center;
+    font-size: 60px;
+    color: #0196e3;
+}
+.container4{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin:100px auto;
+
+}
+.box-1{
+    border: 3px solid rgb(130, 112, 112);
+    border-radius: 20px;
+    flex-basis: 40%;
+    position: relative;
+    width: 20%;
+  
+}
+.box-1>div{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.box-1>div>h2{
+    margin: 0;
+}
+.box-1>div>p{
+    margin: 0;
+}
+ .box-1>p{
+    margin: 0;
+    font-size: 25px;
+ }   
